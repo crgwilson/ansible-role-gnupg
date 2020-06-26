@@ -1,5 +1,7 @@
 # Ansible role: GnuPG
 
+![Molecule Test](https://github.com/crgwilson/ansible-role-gnupg/workflows/Molecule%20Test/badge.svg)
+
 Install and manage [GnuPG packages](https://gnupg.org/)
 
 
