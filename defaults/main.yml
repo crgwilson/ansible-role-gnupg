@@ -1,0 +1,7 @@
+---
+gnupg_install_entropy_daemon: true
+gnupg_entropy_daemon_packages:
+  - haveged
+
+gnupg_packages:
+  - gnupg2

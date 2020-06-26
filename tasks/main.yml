@@ -1,0 +1,11 @@
+---
+- name: Install entropy daemon to help with generating keys
+  package:
+    name: "{{ gnupg_entropy_daemon_packages }}"
+    state: present
+  when: gnupg_install_entropy_daemon
+
+- name: Install GnuPG
+  package:
+    name: "{{ gnupg_packages }}"
+    state: present
